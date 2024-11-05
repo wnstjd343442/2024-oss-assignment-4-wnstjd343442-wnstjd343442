@@ -1,0 +1,32 @@
+.nav-link:hover {
+  background-color: rgb(224, 224, 224);
+}
+.hover {
+  background-color: rgb(224, 224, 224);
+}
+
+@media (max-width: 767px) {
+  .left-sidebar {
+    display: none !important;
+  }
+
+  .container {
+    display: flex;
+    max-width: 100%;
+    padding: 20px;
+  }
+
+  .askBtn {
+    padding: 4px !important;
+    display: flex;
+    margin: 5px;
+    flex-direction: row-reverse;
+  }
+
+  .des {
+    font-size: 0.7em;
+  }
+  .ans {
+    font-size: 0.7em;
+  }
+}
